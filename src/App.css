@@ -1,0 +1,30 @@
+body {
+    padding: 20px;
+    color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    gap: 10px;
+    padding: 2px;
+}
+
+li > div {
+    display: flex;
+    gap: 10px;
+    padding: 0 10px;
+}
+
+li > div > span {
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.error {
+    background-color: rgb(190, 64, 35);
+    padding: 5px;
+}
